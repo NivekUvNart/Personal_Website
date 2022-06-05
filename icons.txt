@@ -1,0 +1,6 @@
+TEMPORARY ICONS
+
+Instagram:      <i class="fa-brands fa-instagram"></i>
+Discord:        <i class="fa-brands fa-discord"></i>
+Switch:         <i class="fa-brands fa-playstation"></i>
+Email:          <i class="fa-solid fa-envelope"></i>
