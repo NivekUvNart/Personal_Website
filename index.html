@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css">
@@ -16,9 +16,34 @@
     </header>
     <main>
         <section class="section sec2 about"></section>
-        <section class="section sec3 portfolio"></section>
-        <section class="section sec4 blogs"></section>
-        <section class="section sec5 contact"></section>
+        <section class="section sec3 resume"></section>
+        <section class="section sec4 projects"></section>
+        <section class="section sec5 portfolio"></section>
+        <section class="section sec6 contact"></section>
     </main>
+
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="header">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="control control-3" data-id="resume">
+            <i class="fa-solid fa-file"></i>
+        </div>
+        <div class="control control-4" data-id="projects">
+            <i class="fa-solid fa-layer-group"></i>
+        </div>
+        <div class="control control-5" data-id="portfolio">
+            <i class="fa-solid fa-folder"></i>
+        </div>
+        <div class="control control-6" data-id="contact">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
 </body>
 </html>
